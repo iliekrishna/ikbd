@@ -10,6 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#EC5228"
+        android:backgroundTint="#EC5228"
         android:orientation="vertical">
 
         <Space
@@ -19,6 +21,8 @@
         <ListView
             android:id="@+id/listViewAlunos"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#3F7D58"
+            android:backgroundTint="#3F7D58" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
