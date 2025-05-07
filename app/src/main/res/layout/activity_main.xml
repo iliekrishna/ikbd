@@ -3,20 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#EC5228"
-        android:backgroundTint="#EC5228"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#243642"
         android:orientation="vertical">
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="117dp" />
+            android:layout_height="81dp" />
+
+        <TextView
+            android:id="@+id/txtbd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#629584"
+            android:fontFamily="@font/cherry_bomb_one"
+            android:gravity="center"
+            android:rotationX="-4"
+            android:text="Banco De Dados"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
 
         <ListView
             android:id="@+id/listViewAlunos"

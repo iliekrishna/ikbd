@@ -3,31 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="#3F7D58"
     tools:context=".TelaManutencao">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#243642"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="93dp"
-            android:background="#EC5228"
-            app:srcCompat="@drawable/dramatic_acclaimed_screwdriver_phillips_head_with_transparent_background_png" />
+            android:layout_height="81dp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="68dp"
-            android:background="#EC5228"
+            android:background="#629584"
             android:fontFamily="@font/cherry_bomb_one"
             android:gravity="center"
-            android:text="Manutenção de dados"
+            android:rotationX="-4"
+            android:text="Manutenção De Dados"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -40,6 +39,7 @@
             android:fontFamily="@font/cherry_bomb_one"
             android:hint="ID"
             android:inputType="text"
+            android:textColor="#EFEFEF"
             android:textColorHint="#EFEFEF" />
 
         <EditText
@@ -50,6 +50,7 @@
             android:fontFamily="@font/cherry_bomb_one"
             android:hint="Nome"
             android:inputType="text"
+            android:textColor="#EFEFEF"
             android:textColorHint="#EFEFEF" />
 
         <EditText
@@ -60,6 +61,7 @@
             android:fontFamily="@font/cherry_bomb_one"
             android:hint="CPF"
             android:inputType="text"
+            android:textColor="#EFEFEF"
             android:textColorHint="#EFEFEF" />
 
         <EditText
@@ -70,6 +72,7 @@
             android:fontFamily="@font/cherry_bomb_one"
             android:hint="Telefone"
             android:inputType="text"
+            android:textColor="#EFEFEF"
             android:textColorHint="#EFEFEF" />
 
         <Button
@@ -79,7 +82,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
-            android:backgroundTint="#E2725B"
+            android:backgroundTint="#629584"
             android:fontFamily="@font/cherry_bomb_one"
             android:rotationX="-4"
             android:text="Atualizar"
@@ -92,7 +95,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
-            android:backgroundTint="#E2725B"
+            android:backgroundTint="#629584"
             android:fontFamily="@font/cherry_bomb_one"
             android:rotationX="-4"
             android:text="Excluir"
@@ -105,7 +108,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
-            android:backgroundTint="#E2725B"
+            android:backgroundTint="#629584"
             android:fontFamily="@font/cherry_bomb_one"
             android:onClick="voltar"
             android:rotationX="-4"
